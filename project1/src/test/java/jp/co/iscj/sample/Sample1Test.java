@@ -5,15 +5,9 @@ import junit.framework.TestCase;
 public class Sample1Test extends TestCase {
 
 	public void testCase1(){
-		Sample1 smp= new Sample1();
+		Sample2 smp= new Sample2();
 
-		assertTrue(smp.func1("ISCJ"));
-
-		assertFalse(smp.func1(""));
-
-		assertTrue(smp.func2("ISCJ"));
-
-		assertFalse(smp.func2(null));
+		assertFalse(smp.func2(0));
 
 	}
 
