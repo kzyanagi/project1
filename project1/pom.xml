@@ -72,14 +72,7 @@
         <!-- レポートプラグインのIDを定義します。 -->
         <artifactId>maven-pmd-plugin</artifactId>
         <!-- レポートプラグインのバージョンを定義します。 -->
-
-        <!-- レポートプラグインのその他各種設定を定義します。 -->
-		<configuration>
-    	<sourceEncoding>UTF-8</sourceEncoding>
-    	<rulesets>
-      		<ruleset>pmd_rules.xml</ruleset>
-    	</rulesets>
-  		</configuration>
+       
       </plugin>
       <plugin>
 			<groupId>org.apache.maven.plugins</groupId>
