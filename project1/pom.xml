@@ -72,7 +72,14 @@
         <!-- レポートプラグインのIDを定義します。 -->
         <artifactId>maven-pmd-plugin</artifactId>
         <!-- レポートプラグインのバージョンを定義します。 -->
-       
+		<reportSets>
+        	<reportSet>
+            	<reports>
+                	<report>pmd</report>
+                	<report>cpd</report>
+            	</reports>
+        	</reportSet>
+     	</reportSets>
       </plugin>
       <plugin>
 			<groupId>org.apache.maven.plugins</groupId>
