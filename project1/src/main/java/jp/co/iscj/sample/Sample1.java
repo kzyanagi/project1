@@ -1,6 +1,6 @@
 package jp.co.iscj.sample;
 
-public class Sample4 {
+public class Sample1 {
 
 	public boolean func1(String str){
 		if (str.equals("ISCJ")){
