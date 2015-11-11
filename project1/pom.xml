@@ -42,10 +42,7 @@
         <!-- レポートプラグインのバージョンを定義します。 -->
         <version>2.4</version>
         <!-- レポートプラグインのその他各種設定を定義します。 -->
-        <configuration>
-          <webAccessUrl>svn://amksdv04.ykkap.co.jp/svnrepo/Trunk/estimate/EstimateServer-EH</webAccessUrl>
-          <anonymousConnection>scm:svn://amksdv04.ykkap.co.jp/svnrepo/Trunk/estimate/EstimateServer-EH</anonymousConnection>
-          <developerConnection>scm:svn://amksdv04.ykkap.co.jp/svnrepo/Trunk/estimate/EstimateServer-EH</developerConnection>
+        <configuration>         
         </configuration>
       </plugin>
       <!-- 【javadoc】 -->
@@ -84,6 +81,10 @@
     	</rulesets>
   		</configuration>
       </plugin>
+      <plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-jxr-plugin</artifactId>
+	  </plugin>
       <!-- 【surefire】 -->
       <!-- レポートに必要なプラグインを定義します。 -->
       <plugin>
